@@ -1,0 +1,4 @@
+[submodule "edindzilicblog/public"]
+	path = edindzilicblog/public
+	url = https://github.com/EdinDzilic/edindzilic.com.git
+	branch = main
