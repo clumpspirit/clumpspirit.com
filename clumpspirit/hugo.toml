@@ -1,0 +1,4 @@
+baseURL = 'https://clumpspirit.com'
+languageCode = 'en-us'
+title = 'edin dzilic'
+theme="hugo-theme-nostyleplease"
