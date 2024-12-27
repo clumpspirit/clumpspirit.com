@@ -1,0 +1,13 @@
+<header>
+	<nav>
+		<p>
+			{{ if not .IsHome }}
+			<a class="nav-item" href="/" title="Home">Home</a>
+			{{ end }}
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+			<a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+			{{ end }}
+		</p>
+	</nav>
+</header>

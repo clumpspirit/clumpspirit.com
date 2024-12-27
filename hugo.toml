@@ -1,4 +1,4 @@
-baseURL = 'https://clumpspirit.com'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'edin dzilic'
-theme="hugo-theme-nostyleplease"
+title = 'My New Hugo Site'
+theme = 'mxkrsv'
